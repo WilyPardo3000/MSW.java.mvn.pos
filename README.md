@@ -49,16 +49,12 @@ mvn -f app package
 mvn -f app clean
 ```
 ### Generar el Diagrama de Secuencia con AppMap
-Hay dos formas:
 
-1) Ejecutar las pruebas en VSCode. Dar clic en el botón `Explore AppMaps` que se muestra en ventana emergente. Se mostrará el Diagrama de Secuencia.
-2) Sin ejecutar las pruebas en VSCode, ejecute el comando:
+Ejecute el comando:
 ```
 mvn -f app com.appland:appmap-maven-plugin:prepare-agent test
 ```
 Luego de clic en archivo `app/tmp/appmap/junit/miPrincipal_AppTest_testPOS.json`. Se mostrará el Diagrama de Secuencia.
-
-Para una experiencia local: abrir el CodeSpace en `VSCode desktop`, autentificarse en `AppMap` con su cuenta de `GitHub` y revisar el Diagrama de Secuencia en la opción `Explore AppMaps`.
 
 ## Comandos Git-Cambios y envío a Autograding
 
