@@ -1,0 +1,7 @@
+[
+  "domain/ProductCatalog",
+  "domain/Sale",
+  "domain/SaleLineItem",
+  "miPrincipal/AppTest",
+  "workflow/POS"
+]

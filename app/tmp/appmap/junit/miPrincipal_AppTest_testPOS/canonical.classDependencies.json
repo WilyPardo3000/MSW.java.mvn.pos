@@ -1,0 +1,22 @@
+[
+  {
+    "caller": "domain/Sale",
+    "callee": "domain/SaleLineItem"
+  },
+  {
+    "caller": "miPrincipal/AppTest",
+    "callee": "domain/Sale"
+  },
+  {
+    "caller": "miPrincipal/AppTest",
+    "callee": "workflow/POS"
+  },
+  {
+    "caller": "workflow/POS",
+    "callee": "domain/ProductCatalog"
+  },
+  {
+    "caller": "workflow/POS",
+    "callee": "domain/Sale"
+  }
+]

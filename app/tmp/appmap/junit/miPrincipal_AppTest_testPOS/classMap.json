@@ -1,0 +1,110 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "name": "specification",
+            "type": "function",
+            "static": false,
+            "location": "src/main/java/domain/ProductCatalog.java:23"
+          }
+        ],
+        "name": "ProductCatalog",
+        "type": "class"
+      },
+      {
+        "children": [
+          {
+            "name": "subtotal",
+            "type": "function",
+            "static": false,
+            "location": "src/main/java/domain/SaleLineItem.java:13"
+          }
+        ],
+        "name": "SaleLineItem",
+        "type": "class"
+      },
+      {
+        "children": [
+          {
+            "name": "makePayment",
+            "type": "function",
+            "static": false,
+            "location": "src/main/java/domain/Sale.java:42"
+          },
+          {
+            "name": "makeLineItem",
+            "type": "function",
+            "static": false,
+            "location": "src/main/java/domain/Sale.java:25"
+          },
+          {
+            "name": "total",
+            "type": "function",
+            "static": false,
+            "location": "src/main/java/domain/Sale.java:30"
+          },
+          {
+            "name": "becomeComplete",
+            "type": "function",
+            "static": false,
+            "location": "src/main/java/domain/Sale.java:18"
+          }
+        ],
+        "name": "Sale",
+        "type": "class"
+      }
+    ],
+    "name": "domain",
+    "type": "package"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "name": "endSale",
+            "type": "function",
+            "static": false,
+            "location": "src/main/java/workflow/POS.java:17"
+          },
+          {
+            "name": "EnterItem",
+            "type": "function",
+            "static": false,
+            "location": "src/main/java/workflow/POS.java:22"
+          },
+          {
+            "name": "makePayment",
+            "type": "function",
+            "static": false,
+            "location": "src/main/java/workflow/POS.java:32"
+          }
+        ],
+        "name": "POS",
+        "type": "class"
+      }
+    ],
+    "name": "workflow",
+    "type": "package"
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "name": "testPOS",
+            "type": "function",
+            "static": false,
+            "location": "src/test/java/miPrincipal/AppTest.java:22"
+          }
+        ],
+        "name": "AppTest",
+        "type": "class"
+      }
+    ],
+    "name": "miPrincipal",
+    "type": "package"
+  }
+]

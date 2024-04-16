@@ -1,0 +1,14 @@
+[
+  {
+    "caller": "miPrincipal",
+    "callee": "domain"
+  },
+  {
+    "caller": "miPrincipal",
+    "callee": "workflow"
+  },
+  {
+    "caller": "workflow",
+    "callee": "domain"
+  }
+]

@@ -1,0 +1,39 @@
+# Created at 2024-04-16T06:07:36.970
+Exception in thread "main" java.lang.reflect.InvocationTargetException
+
+# Created at 2024-04-16T06:07:36.970
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2024-04-16T06:07:36.971
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2024-04-16T06:07:36.973
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2024-04-16T06:07:36.973
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+
+# Created at 2024-04-16T06:07:36.973
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+
+# Created at 2024-04-16T06:07:36.974
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+# Created at 2024-04-16T06:07:36.974
+Caused by: java.lang.NullPointerException
+
+# Created at 2024-04-16T06:07:36.975
+	at com.appland.appmap.config.AppMapConfig.initialize(AppMapConfig.java:329)
+
+# Created at 2024-04-16T06:07:36.975
+	at com.appland.appmap.Agent.premain(Agent.java:57)
+
+# Created at 2024-04-16T06:07:36.976
+	... 6 more
+
+# Created at 2024-04-16T06:07:36.976
+*** java.lang.instrument ASSERTION FAILED ***: "result" with message agent load/premain call failed at ./src/java.instrument/share/native/libinstrument/JPLISAgent.c line: 422
+
+# Created at 2024-04-16T06:07:37.210
+Aborted (core dumped)
+
